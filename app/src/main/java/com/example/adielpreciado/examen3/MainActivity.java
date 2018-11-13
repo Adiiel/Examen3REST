@@ -2,6 +2,7 @@ package com.example.adielpreciado.examen3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -27,7 +28,7 @@ private Button btnagr;
         telf=(EditText)findViewById(R.id.telef);
         btnagr=(Button)findViewById(R.id.btnagr);
     }
-    public void SaveUser(){
+    public void SaveUser(View view){
         String nombres = nombr.getText().toString();
         String apellidos = apelli.getText().toString();
         String correo = corre.getText().toString();
