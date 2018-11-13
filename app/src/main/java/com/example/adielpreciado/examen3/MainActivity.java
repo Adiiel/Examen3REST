@@ -18,6 +18,7 @@ import java.util.ArrayList;
 
 import cz.msebera.android.httpclient.Header;
 
+
 public class MainActivity extends AppCompatActivity {
 private EditText nombr,apelli,usr,clav,corre,telf;
 private TextView iddatos;
